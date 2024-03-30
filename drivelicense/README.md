@@ -124,3 +124,21 @@ new file -> name: docker-compose.yml -> use this information inside it to run yo
 
     // To see the containers running:
         docker-compose ps  
+
+##GITHBU PAGES:
+    npm i gh-pages -save-dev
+    npm run build
+
+    ## Deploy 
+    Create new repository in Githib with the same name of this project `todo4` save like public to others people can see and follow the instructions of the github.
+    Open the project and terminal and run `git init`, readme create you same then jump and run `git add .`, after `git commit -m "Message commit that you would like put here"`, git branch -M main, copy and pasta the `git remove add origin url` that appear in the git with the url to dont have error and `git push -u origin main` after this upload the page and you can see the project in the github.
+
+    To work with github pages install `npm i gh-pages -save-dev` and package.json add:
+        <username>.github.io/<repositoryname>
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+
+        and in vite.config.js:
+        base: "/repositoryname"
+
+    After this run `npm run deploy` if run without error works, then its only go to github pages and wait appear the link and you can share your project with others users.
