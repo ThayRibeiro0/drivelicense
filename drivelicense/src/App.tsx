@@ -26,6 +26,7 @@ const App: React.FC = () => {
         `;
         }
     };
+    calculateAgeAndVerifyAptitude();
     return null; // React Components must return a single JSX element, but this app will handle the logic outside of the component
 };
 
