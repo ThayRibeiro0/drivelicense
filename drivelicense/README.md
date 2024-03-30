@@ -1,6 +1,6 @@
-#**Create app from zero**
+#**Create app from zero**#
 
-###**Node.js and npm:**
+###**Node.js and npm:**###
     Node.js is a JavaScript runtime that comes with npm, the Node Package Manager, which you'll use to install and manage packages for your project.
 
     _How can I Download Node.js?_
@@ -31,21 +31,21 @@
     npm config set https-proxy http://proxy.example.com:port
     Replace http://proxy.example.com:port with your actual proxy address and port.
 
-###**Text Editor or IDE:**
+###**Text Editor or IDE:**###
     You'll need a text editor or an Integrated Development Environment (IDE) to write your code. Popular choices include:
     - Visual Studio Code; Visit the official their website at: https://code.visualstudio.com/download
     - Sublime Text; Visit the official their website at: https://www.sublimetext.com/3 
     - Atom, or; Visit the official their website at: https://atom-editor.cc/
     - WebStorm. Visit the official their website at: https://www.jetbrains.com/webstorm/download/#section=mac
 
-###**Git:**
+###**Git:**###
     While not strictly necessary for the project setup, having Git installed can be useful for version control.
     Visit the official their website at: https://github.com/
     
     
-##**React, TypeScript, and Vite Project:**
+##**React, TypeScript, and Vite Project:**##
 
-###**Create a New Directory: Open your terminal or command prompt and create a new directory for your project.**
+###**Create a New Directory: Open your terminal or command prompt and create a new directory for your project.**###
     mkdir my-react-app
     cd my-react-app
     
@@ -55,14 +55,14 @@
     npm i
     npm run dev
 
-###**Create and Edit the project Files:**
+###**Create and Edit the project Files:**###
     In this case I only use index.html and app.tsx at the assets/src to create this simple project.
 
-###**Run Your Application: Start the Vite development server.**
+###**Run Your Application: Start the Vite development server.**###
     If you already didn't it now run the npm run dev
     Your React app with TypeScript and Vite should now be running. You can open your browser and navigate to http://localhost:3000 to see your application in action.
 
-###**Docker Compose:**
+###**Docker Compose:**###
     Docker Compose is a tool for defining and running multi-container Docker applications. It allows you to use a YAML file to configure the services, networks, and volumes for your Docker containers, making it easier to manage complex applications with multiple components.
     With Docker Compose, you can define your application's architecture and dependencies in a single configuration file, which can then be used to build, start, stop, and manage your containers as a single unit.
     
