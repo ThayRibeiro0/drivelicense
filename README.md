@@ -56,6 +56,7 @@ Open your terminal or command prompt and create a new directory for your project
 ## Create and Edit the project Files 🗄️
 
 In this case I only use index.html and app.tsx at the assets/src to create this simple project.
+Move all the files inside the first folder (drivelicense>drivelicense) and bring everything out for the principal one, will have a better view at the github and published.
 
 ## Run Your Application 🏃🏽‍♀️
 
@@ -167,10 +168,10 @@ new file -> name: docker-compose.yml -> use this information inside it to run:
         
         //inside the scripts:
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d build"
 
 optional - in vite.config.js:
 
 		base: "/repositoryname"
 
- After this run `npm run deploy` if run without error works, then its only go to github pages and wait appear the link and you can share your project with others users.
+ After this create a folder 'build' and run `npm run build` and after this `npm run deploy` if run without error works, then its only go to github pages and wait appear the link and you can share your project with others users.
