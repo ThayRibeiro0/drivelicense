@@ -116,32 +116,32 @@
             database: 
                 image: redis
 
-    Check the validity of file by command and if show the components inside it's working: 
-    docker-compose config
+        // Check the validity of file by command and if show the components inside it's working: 
+            docker-compose config
 
-    Run docker-compose.yml file by command:
-    docker-compose up -d
+         // Run docker-compose.yml file by command:
+            docker-compose up -d
 
-    // To see the containers running:
-    docker-compose ps
+        // To see the containers running:
+            docker-compose ps
 
-    // to stop everything
-    docker-compose down
+        // to stop everything
+            docker-compose down
 
-    // To see the containers running:
-    docker-compose ps
+        // To see the containers running:
+            docker-compose ps
 
-    Run docker-compose.yml file by command with database:
-    docker-compose up -d --scale database=4
+        // Run docker-compose.yml file by command with database:
+            docker-compose up -d --scale database=4
 
-   // To see the containers running:
-    docker-compose ps 
+        // To see the containers running:
+            docker-compose ps 
+    
+        // to stop everything/remove
+            docker-compose down
 
-    // to stop everything/remove
-    docker-compose down
-
-   // To see the containers running:
-    docker-compose ps  
+        // To see the containers running:
+            docker-compose ps  
 
 
 
