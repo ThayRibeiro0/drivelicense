@@ -162,11 +162,14 @@ new file -> name: docker-compose.yml -> use this information inside it to run:
 
  To work with github pages install `npm i gh-pages -save-dev` and package.json add:
        
-        <username>.github.io/<repositoryname>
+        //top line:
+        "homepage": "https://<githubusername>.github.io/<repositorynameofthisproject>",
+        
+        //inside the scripts:
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
 
-and in vite.config.js:
+optional - in vite.config.js:
 
 		base: "/repositoryname"
 
